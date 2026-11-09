@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated training data and model artifacts
+/data/*.csv
+/models/*.pkl
+/archive/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
